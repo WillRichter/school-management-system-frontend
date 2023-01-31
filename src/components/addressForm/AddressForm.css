@@ -1,0 +1,62 @@
+.address-update-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-update-modal-content {
+    width: 800px;
+    background: #243E36;
+}
+
+.address-update-modal-content-header {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 10px;
+}
+
+.address-update-modal-content-header h1 {
+    font-size: 24px;
+    color: #C2A83E;
+    text-decoration: underline;
+}
+
+.address-update-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.address-update-form input {
+    text-align: center;
+    width: 80%;
+    background: #E0EEC6;
+}
+
+.address-update-form input,
+.address-update-form button {
+    height: 40px;
+    margin: 10px auto 10px;
+}
+
+.address-update-form button {
+    width: 30%;
+    background: #C2A83E;
+    color: #243E36;
+    border: none;
+    cursor: pointer
+}
+
+@media screen and (max-width: 800px) {
+    .address-update-modal-content {
+        width: 100%;
+    }
+}
+
+

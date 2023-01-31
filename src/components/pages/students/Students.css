@@ -1,0 +1,36 @@
+.students-page-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.students-page-title {
+    font-size: 32px;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background: #C2A83E;
+    color: black;
+}
+
+table, td {
+    background: #243E36;
+    color: #E0EEC6;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+

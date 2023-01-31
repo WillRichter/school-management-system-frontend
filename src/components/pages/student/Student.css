@@ -1,0 +1,91 @@
+.student-page-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-page-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.student-page-title {
+    font-size: 32px;
+}
+
+.student-page-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.student-page-details-and-address-container {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #243E36;
+    background: #243E36;
+}
+
+.student-image {
+    width: 300px;
+    height: 350px;
+}
+
+.student-page-address {
+    margin-top: 25px;
+}
+
+img {
+    display: block;
+}
+
+.student-image-edit-button {
+    display: block;
+    margin: 10px auto 0;
+}
+
+.student-details-edit-button,
+.student-address-edit-button,
+.student-image-edit-button {
+    cursor: pointer;
+    background: #243E36;
+    color: #C2A83E;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .student-page-container {
+        padding: 10px;
+    }
+    .student-page-details-container {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .student-page-details {
+        flex-direction: column;
+    }
+    .student-page-standard-details,
+    .student-page-address {
+        margin: 25px auto 0;
+        width: 100%;
+    }
+}

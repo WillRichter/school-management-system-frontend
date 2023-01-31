@@ -1,0 +1,33 @@
+p {
+    margin-bottom: 5px;
+}
+.mobile-student-card {
+    padding: 1% 2%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 10px;
+    background: #243E36;
+    color: #E0EEC6;
+    border-radius: 5px;
+}
+
+.mobile-student-card-divider {
+    margin: 5px auto 5px;
+    width: 90%;
+    height: 1px;
+    background: #C2A83E;
+}
+
+.mobile-student-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.click-for-details {
+    text-decoration: none;
+    color: #C2A83E;
+}
+
+

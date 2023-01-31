@@ -1,0 +1,17 @@
+.users-page-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.users-page-title {
+    font-size: 32px;
+}
+
+
+
+
+

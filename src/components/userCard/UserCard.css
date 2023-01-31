@@ -1,0 +1,9 @@
+.user-click-for-details {
+    text-decoration: none;
+    color: #E0EEC6;
+}
+
+.user-remove-button {
+    cursor: pointer;
+    color: #C2A83E;
+}

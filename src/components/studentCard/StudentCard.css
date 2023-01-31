@@ -1,0 +1,12 @@
+.student-click-for-details {
+    text-decoration: none;
+    color: #E0EEC6;
+}
+
+.remove-student-button {
+    color: #C2A83E;
+}
+
+.remove-student-button:hover {
+    cursor: pointer;
+}

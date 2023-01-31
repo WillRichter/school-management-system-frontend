@@ -1,0 +1,25 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    padding: 20px;
+}
+
+.home-page-title {
+    font-size: 48px;
+    border-bottom: 2px solid #243E36;
+}
+
+.home-page-subtext {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-page-container {
+        height: 40vh;
+    }
+}
